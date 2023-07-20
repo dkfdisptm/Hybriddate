@@ -10,6 +10,7 @@
         <input type="number" name="num_persons" id="num_persons" min="1" value="3">
         <input type="submit" name="generate" value="Generate Schedules">
     </form>
+    
  <?php
     function get_random_weekday() {
         $weekdays = array('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday');
